@@ -48,10 +48,12 @@ class LinearRegression:
 	class PolynomialRegression:
 		def __init__(self, X, Y):	
 			'''
-			Input: Y = a coloumn list of numbers [1,
+			Input: 
+			
+				 Y = a coloumn list of numbers [1,
 											  2,
 											  3], 
-			 X = a matrix, each row is one datapoint [[1,x01,x02,x03...],
+				 X = a matrix, each row is one datapoint [[1,x01,x02,x03...],
 														[1,x11,x12,x12...],
 														[1,x21,x22,x23...]]
 			'''		
